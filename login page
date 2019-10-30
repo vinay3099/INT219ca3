@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+    learnonline
+    </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="new.css"/>
+    <style>
+    body{
+        background-color:honeydew;
+    }
+    </style>
+    <script src="/angular.min.js"></script>
+    <script src="/jquery-3.4.1.js"></script>
+     </head>
+<body>
+    <div class="login">
+    <form>
+      <img src="/avatar.png" class="avatarimg" width="100px" height="100px"><br>
+     <label id="Email">Email<input type="text" name="username" placeholder="Username"></label> <br>
+      <label id="Password">Password<input type="password" name="password" placeholder="password"></label>
+    </form>
+</div>
+</body>
+</html>
