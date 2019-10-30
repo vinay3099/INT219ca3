@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>
+    learnonline
+    </title>
+   
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="new.css"/>
+    <link rel="stylesheet" type="text/css" href="/coursedetails.css">
+    <link rel="stylesheet" type="text/css" href="/fontawesome-free-5.11.2-web/css/all.min.css">
+    <script src="/angular.min.js"></script>
+    <script src="/jquery-3.4.1.js"></script>
+    </head>
+<body>
+    <div class="html">
+        <div class="navbar">
+                <a class="logo" href="#">ABCLearn</a>
+                 <div class="menu"><ul>
+                      <li><a href="/home.html">Home</a></li>
+                      <li class="courses"><a href="#">Courses</a>
+                      <ul><li><a href="#">Html</a></li>
+                      <li><a href="#">Css</a></li>
+                      <li><a href="#">Javascript</a></li></ul>
+                      </li>
+                      <li><a href="#">AboutUS</a></li>
+                      <li><a href="#">Login</a></li>
+                     </ul>
+                  </div>
+  
+            </div>
+            <div class="html1">
+                    <p><span style="font-size: 35px;">CSS - The Complete Guide</span><br>
+                <span style="font-size: 22px;"> Learn CSS for the first time or brush up your CSS skills and dive in even deeper. EVERY web developer has to know CSS.</span><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span><span style="padding-left: 10px;">4.0(19,339 ratings)</span><span style="padding-left: 30px;"> 590 students enrolled</span> <br>
+                Created By : Vinay Sai<span style="padding-left: 30px;">Last Updated : 25/10/2019</span><span style="padding-left: 30px;" class="fa fa-comment">English</span>
+                </p>
+            </div>
+            <div class="html2"><img src="/images.png" width="393px" height="220px" style="border: 5px solid white;">
+               <form> <label id="mobile">Mobile number<br><input type="text" id="buymobile"></label><br>
+                      <label id="mobile">Email<br><input type="email" id="buymobile"</label></form>
+            <p style="line-height: 1.5;"><span class="fa fa-rupee-sign" style="padding-left:150px;font-size: 30px;"></span><span style="font-size: 40px;padding-left: 5px;">999</span><br>
+            <span style="border: 2px solid black;padding: 10px 100px;margin-left: 70px;background-color: gray;"><a href="#">Buy Now</a></span><br>
+            <span style="font-size: 15px;margin-left:100px;">30 days Money back Gaurantee</span> </p>
+            <p style="margin-left: 50px;font-size: 20px;">This course Includes<br>
+            *10 hours on-demand video<br>
+            *Certificate of Completion<br>
+            *Full lifetime access</p>
+        </div>
+        <div class="what-you"><p >
+            <h2>What you will learn</h2>
+            <span style="font-size: 18px;line-height: 1.9;">* Build beautiful websites which don't just contain great content but also look good<br>
+                * Use basic as well as advanced CSS features<br>
+                * Understand the concepts and theory behind CSS and certain CSS features <br>
+                <h2>Requirements</h2>
+                Any HTML editor and HTML5 compatible web browser<br>
+                You should know the very basics about HTML and web development in general<br>
+                NO CSS knowledge is required at all! You'll learn it all in this course!<br>
+                <h2>Description</h2>
+                CSS - short for Cascading Style Sheets - is a "programming language" you use to turn your raw HTML pages into real beautiful websites.Getting started with CSS might look easy but there actually is a lot of depth to CSS - hence this course provides different "Tracks" or "Entry points" to exactly meet your demands and reflect you current knowledge level:
+
+                The Basics Track: Start from scratch, learn CSS from the ground up. You start with lecture 1 and simply follow through to the end.
+                
+                The Advanced Track: You already know the CSS basics, you know what selectors are and how it works but you want to dive in deeper and learn some advanced features and usages.
+                
+                The Expert Track: You got the advanced knowledge, too, but you want to dive into things like Flexbox, CSS Grid, CSS Variables or Sass.</span>
+        </p></div>
+        </div>
+        <div class="foot">
+     <div class="contact"><h1>Contact Us</h1>
+    <label style="color:white;">Name<input type="text" name="name" required style="margin:10px 20px;border-radius: 10%;"></label><br>
+    <label style="color:white;">Email<input type="email" name="email" required style="margin: 10px 20px;border-radius: 10%;"></label><br>
+    <label style="color:white;">Message<input type="text" name="message" required style="margin:10px 20px;border-radius: 10%;"></label><br>
+          <button type="submit" style="width: 70px;">SEND</button>
+    </div>
+    <div class="foot2">
+      <h1>Follow</h1>
+          <div class="social">
+          <a href="#" style="background-color: red;color: white;">Youtube</a>
+          <a href="#" style="background-color: blue;color: white;">facebook</a>
+          <a href="#" style="background-color: deepskyblue;color: white;">twitter</a>
+          <a href="#" style="background-image: url(insta.jpg);color: white;">instagram</a>
+          </div>
+      </div>
+     </div>
+        
+    </body>
+</html>
