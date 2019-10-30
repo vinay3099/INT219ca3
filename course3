@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>
+    learnonline
+    </title>
+   
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="new.css"/>
+    <link rel="stylesheet" type="text/css" href="/coursedetails.css">
+    <link rel="stylesheet" type="text/css" href="/fontawesome-free-5.11.2-web/css/all.min.css">
+    <script src="/angular.min.js"></script>
+    <script src="/jquery-3.4.1.js"></script>
+    </head>
+<body>
+    <div class="html">
+        <div class="navbar">
+                <a class="logo" href="#">ABCLearn</a>
+                 <div class="menu"><ul>
+                      <li><a href="/home.html">Home</a></li>
+                      <li class="courses"><a href="#">Courses</a>
+                      <ul><li><a href="#">Html</a></li>
+                      <li><a href="#">Css</a></li>
+                      <li><a href="#">Javascript</a></li></ul>
+                      </li>
+                      <li><a href="#">AboutUS</a></li>
+                      <li><a href="#">Login</a></li>
+                     </ul>
+                  </div>
+  
+            </div>
+            <div class="html1">
+                    <p><span style="font-size: 35px;">Learn HTML5 Programming From Scratch</span><br>
+                <span style="font-size: 22px;"> Complete HTML5 Programming Course for Beginners</span><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span><span style="padding-left: 10px;">4.0(12,339 ratings)</span><span style="padding-left: 30px;"> 459 students enrolled</span> <br>
+                Created By : Naveen<span style="padding-left: 30px;">Last Updated : 28/10/2019</span><span style="padding-left: 30px;" class="fa fa-comment">English</span>
+                </p>
+            </div>
+            <div class="html2"><img src="/learnhtml.jpg" width="393px" height="220px" style="border: 5px solid white;">
+               <form> <label id="mobile">Mobile number<br><input type="text" id="buymobile"></label><br>
+                      <label id="mobile">Email<br><input type="email" id="buymobile"</label></form>
+            <p style="line-height: 1.5;"><span class="fa fa-rupee-sign" style="padding-left:150px;font-size: 30px;"></span><span style="font-size: 40px;padding-left: 5px;">999</span><br>
+            <span style="border: 2px solid black;padding: 10px 100px;margin-left: 70px;background-color: gray;"><a href="#">Buy Now</a></span><br>
+            <span style="font-size: 15px;margin-left:100px;">30 days Money back Gaurantee</span> </p>
+            <p style="margin-left: 50px;font-size: 20px;">This course Includes<br>
+            *10 hours on-demand video<br>
+            *Certificate of Completion<br>
+            *Full lifetime access</p>
+        </div>
+        <div class="what-you"><p >
+            <h2>What you will learn</h2>
+            <span style="font-size: 18px;line-height: 1.9;">* By the end of the course you will be able to create full fledged HTML5 websites<br>
+                * You will have through understanding of both HTML and CSS<br>
+                * You will be able to create web applications for mobile phones as well <br>
+                <h2>Requirements</h2>
+                Any HTML editor and HTML5 compatible web browser<br>
+                <h2>Description</h2>
+                HTML5 is one of the hot web technologies and is widely gaining acceptance across mobile and web. In our course you get a complete resource which can get you started on application development for HTML5. In our course you work on actual examples and go through important concepts required for through knowledge.
+In our course you will start with basic HTML tags. You will learn how to create HTML websites and use CSS in your work before we start discussing HTML5. We do not assume any prior knowledge so we go through the concepts from the beginner's point of view. In our HTML5 lectures we start with new tags and forms. This course creates easy to grasp examples for each of the concepts and by the end of it you will be able to understand the complete picture rather than just bits and pieces of the technology.
+This is the complete HTML5 course you will need to get you started with HTML5 application development.</span>
+        </p></div>
+        </div>
+        <div class="foot">
+     <div class="contact"><h1>Contact Us</h1>
+    <label style="color:white;">Name<input type="text" name="name" required style="margin:10px 20px;border-radius: 10%;"></label><br>
+    <label style="color:white;">Email<input type="email" name="email" required style="margin: 10px 20px;border-radius: 10%;"></label><br>
+    <label style="color:white;">Message<input type="text" name="message" required style="margin:10px 20px;border-radius: 10%;"></label><br>
+          <button type="submit" style="width: 70px;">SEND</button>
+    </div>
+    <div class="foot2">
+      <h1>Follow</h1>
+          <div class="social">
+          <a href="#" style="background-color: red;color: white;">Youtube</a>
+          <a href="#" style="background-color: blue;color: white;">facebook</a>
+          <a href="#" style="background-color: deepskyblue;color: white;">twitter</a>
+          <a href="#" style="background-image: url(insta.jpg);color: white;">instagram</a>
+          </div>
+      </div>
+     </div>
+        
+    </body>
+</html>
+© 2019 GitHub, Inc.
