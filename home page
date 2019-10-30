@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>
+    learnonline
+    </title>
+   
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="new.css"/>
+    <script src="/angular.min.js"></script>
+    <script src="/jquery-3.4.1.js"></script>
+    
+    </head>
+<body>
+          <div class="navbar">
+              <a class="logo" href="#">ABCLearn</a>
+               <div class="menu"><ul>
+                    <li><a href="#">Home</a></li>
+                    <li class="courses"><a href="#">Courses</a>
+                    <ul><li><a href="#">Html</a></li>
+                    <li><a href="#">Css</a></li>
+                    <li><a href="#">Javascript</a></li></ul>
+                    </li>
+                    <li><a href="#">AboutUS</a></li>
+                    <li><a href="#">Login</a></li>
+                   </ul>
+                </div>
+
+          </div>
+
+        <div class="mainbody">
+                <div class="imageslide">
+                        <img class="mySlides" src="/frontend.png" width="700px" align="middle"height="300px">
+                        <img class="mySlides" src="/frontend1.png" width="700px" style="background-color:black;" align="middle" height="300px">
+                        <img class="mySlides" src="/frontend2.png" width="700px"  align="middle"  height="300px">
+                        <img class="mySlides" src="/frontend4.jpg" width="700px"  align="middle" height="300px">
+                      </div>
+                      <div class="imgcourseblock">
+                          <h2 style="text-align:center;">Online Trainings We Offer</h2>
+                      <div class="imgcourse1"><img src="/htmlimg.jpg" height="210px" width="300px" style="border-radius: 5%;"><button type="button" style="border-radius: 5%;">View Details</button></div>
+                      <div class="imgcourse2"><img src="/images.png" height="210px" width="300px" style="border-radius: 5%;"><button type="button" style="border-radius: 5%;">View Details</button></div>
+                      <div class="imgcourse3"><img src="/jsimg.jpg" height="210px" width="300px" style="border-radius: 5%;"><button type="button" style="border-radius: 5%;">View Details</button></div>
+
+                    </div>
+
+                    <div class="contentdev">
+                        <h1 style="text-align:center;">Our Team</h1>
+                        <div class="naveen"><img src="/naveenimg.jpg" style="float: left;" width="200px" height="200px"> <h1 style="text-align:center;">NAVEEN SRIKAKULAPU</h1><h2 style="text-align:center;">11717095</h2></div>
+                        <div class="vinay"><img src="/vinayimg.jpg" style="float: right;" width="200px" height="200px" ><h1 style="text-align:center;">VINAY SAI KESANA</h1><h2 style="text-align:center;">11705748</h2></div>
+                        <div class="jithu"><img src="/jithendra.jpg" style="float: left;" width="200px" height="200px"><h1 style="text-align:center;">JITHENDRA NATH CHAVVA</h1><h2 style="text-align:center;">11715706</h2></div>
+                        <div class="bala"><img src="/krishnaimg.jpg" style="float: right;" width="200px" height="200px"><h1 style="text-align:center;">BALA MURALI KRISHNA PODALKURI</h1><h2 style="text-align:center;">11717095</h2></div>
+                    </div>
+                    <button onclick="fn1()" id="btn1">click me</button>
+
+        </div>    
+     <div class="footer">
+     <div class="contact"><h1>Contact Us</h1>
+    <label style="color:white;margin: 20px;">Name<input type="text" name="name" required style="margin:10px 20px;border-radius: 10%;"></label><br>
+    <label style="color:white;margin: 20px;">Email<input type="email" name="email" required style="margin: 10px 20px;border-radius: 10%;"></label><br>
+    <label style="color:white;margin: 20px;">Message<input type="text" name="message" required style="margin:10px 20px;border-radius: 10%;"></label><br>
+          <button type="submit" style="width: 70px;margin-left: 1000px;">SEND</button>
+    </div>
+    <div class="foot2">
+      <h1>Follow</h1>
+          <div class="social">
+          <a href="#" style="background-color: red;color: white;">Youtube</a>
+          <a href="#" style="background-color: blue;color: white;">facebook</a>
+          <a href="#" style="background-color: deepskyblue;color: white;">twitter</a>
+          <a href="#" style="background-image: url(insta.jpg);color: white;">instagram</a>
+          </div>
+      </div>
+     </div>
+     <script src="/jquery.js"></script>
+    <script>
+        function fn1()
+        {
+           // document.getElementById();
+            //$("h1").action();
+            $(".myheading").fadeToggle();
+
+        }
+    </script>
+     <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000);
+            }
+            </script>
+    </body>
+</html>
