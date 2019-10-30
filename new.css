@@ -1,0 +1,177 @@
+body{
+    margin: auto;
+    width: 99.7%;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background: -webkit-linear-gradient(top,aqua,blue);
+}
+.logo{
+    font-size: 50px;
+    padding: 5px;
+    padding-right: 70px;
+    text-decoration-style: none;
+    float: right;
+    color: black;
+}
+.menu{
+    height: 70px;
+    float: left;
+   
+}
+ul li a{ 
+  font-size: 20px;
+   display: block;
+   padding-bottom: 5px;padding-top: 5px;
+   padding-left: 10px;padding-right: 10px;
+   color: blanchedalmond;
+}
+ul li{
+    float: left;
+    margin:5px;
+    border-radius: 10%;
+    list-style: none;
+}
+ul li:hover{
+    background: yellow;
+}
+ul li a:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+
+.courses ul{
+    position: absolute;
+    visibility: hidden;
+    width:120px;
+    background: -webkit-linear-gradient(left,aqua,blue);
+    border-radius: 5%;
+    align-self: auto;
+    
+}
+
+.courses:hover ul{
+     visibility: visible;
+}
+.mainbody{
+
+    width: 100%;
+    background: -webkit-linear-gradient(left,gray,gray); 
+ }
+ .mySlides {
+     border: 5px solid white;
+     margin: 50px;
+     margin-left: 300px;
+}
+ .imageslide{
+     border: 5px solid black;
+     width: 99.3%;
+ }
+ .imgcourseblock{
+    width: 99%;
+    height: 400px;
+}
+ 
+ .imgcourse1{
+    float: left;
+    width: 298px;
+    border: 3px solid white;
+    padding: 10px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 5%;
+ }
+ .imgcourse2{
+    float: right;
+    width: 298px;
+    border: 3px solid white;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5%;
+ }
+ .imgcourse3{
+    width: 298px;
+    border: 3px solid white;
+    padding: 10px;
+      margin-left: 500px;
+      margin-top: 50px;
+      background-color: white;
+      border-radius: 5%;
+ }
+ .imgcourse1:hover{
+    background-color:black;
+}
+.imgcourse2:hover{
+    background-color:black;
+}
+ .imgcourse3:hover{
+     background-color:black;
+ }
+ img:hover{
+    transition: 1s;
+    transform:scale(0.9);
+ }
+
+ button{
+     width: 300px;
+     height: 30px;
+}
+.contentdev{
+    width: 99.3%;
+    border: 5px solid black;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background: -webkit-repeating-linear-gradient(top,gray,black);
+}
+.login{
+    width: 500px;
+    height: 400px;
+    background: gray;
+    border: 5px solid black;
+    margin: 80px 400px;
+    border-radius: 5%;
+}
+.avatarimg{
+    background: honeydew;
+    border-radius: 50%;
+    margin-left: 200px;
+}
+.Email{
+    font-size: 20px;
+    
+}
+.naveen,.vinay,.jithu,.bala{
+    width: 78%;
+    height: 200px;
+    border: 5px solid black;
+    margin: 50px 150px;
+    background-color:white;
+    padding: 10px;
+      border-radius: 2%;
+
+}
+.contact{
+   padding: 30px;
+   width: 500px;
+   float: left;
+}
+.foot2
+{ 
+    float: right;
+    width: 50%;
+    padding: 30px;
+}
+.social a{
+    border: 2px solid white;
+    border-radius: 80%;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+}
