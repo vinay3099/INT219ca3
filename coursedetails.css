@@ -1,8 +1,7 @@
-.html{
+..html{
     width: 100%;
     background: -webkit-linear-gradient(top,rgb(152, 100, 219),rgb(98, 105, 211)); ;
     height: 300px;
-
 }
 .html1{
     float: left;
