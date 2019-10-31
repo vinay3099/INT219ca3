@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>internhouse register </title>
+    <link rel="stylesheet" type="text/css" href="regesterstyle.css">
+    
+</head>
+<body>
+
+<div class="navbar">
+              <a class="logo" href="#">ABCLearn</a>
+               <div class="menu"><ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Login</a></li>
+                   </ul>
+                </div>
+
+          </div>
+<div id="registration-container">
+
+                
+                                    <a class="google_login" href="/login/get_google?utm_source=&amp;utm_medium=&amp;utm_campaign=">
+
+                        <div id="google-button-container">
+                            <div class="google_image_container">
+                                
+                            </div>
+                            <div class="google_content">
+                                Sign Up with Google
+                            </div>
+                        </div>
+                    </a>
+                                <div id="form-container">
+                                            <div class="helper">
+                            <div class="text2"><p>Or</p></div>
+                            <div class="border"></div>
+                        </div>
+                    
+                    <form role="form" id="registration-form" method="POST" novalidate="novalidate">
+                                                <input type="hidden" name="csrf_test_name" value="09f6c2a8fbec874f08a51724ebb1a578">
+
+                        <input type="hidden" value="" name="utm_source">
+                        <input type="hidden" value="" name="utm_medium">
+                        <input type="hidden" value="" name="utm_campaign">
+
+                        
+                        <div class="form-group">
+                            <label for="email" class="control-label">Email</label><br>
+                            <input type="email" class="form-control email-field-student-registration" id="email" name="email" value="" placeholder="jithu@dom.com">
+                        </div>
+                        <div class="form-group ">
+                            <label for="password" class="control-label">Password</label><br>
+                            <input type="password" class="form-control" id="password" name="password" value="" placeholder="Must be atleast 6 characters">
+                        </div>
+                        <div class="col-xs-6" id="first_name_container">
+                            <div class="form-group">
+                                <label for="first_name" class="control-label">First Name</label>
+                                <input type="text" class="form-control" id="first_name" name="first_name" value="" placeholder="urstruly">
+                            </div>
+                        </div>
+                        <div class="col-xs-6" id="last_name_container">
+                            <div class="form-group">
+                                <label for="last_name" class="control-label">Last Name</label>
+                                <input type="text" class="form-control" id="last_name" name="last_name" value="" placeholder="jithu">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Signup</button>
+
+                    </form>
+                    <div id="label_toc" class="text-center">
+                        By registering, you agree to the <a href="/terms#student" target="_blank">Terms and Conditions</a>.
+                    </div>
+                    <br>
+                    <div id="login-link-container">Already registered?
+                        <span data-toggle="modal" data-target="#login-modal">
+                            <a href="loginpage.html">login</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+</body>
+</html>
