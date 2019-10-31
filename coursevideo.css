@@ -1,0 +1,58 @@
+.sidemenu{
+        width: 300px;
+        float: left;
+        border: 3px solid black;
+        padding: 10px;
+        background-color: cadetblue;
+}
+.htmlhead{
+    width: 100%;
+    height: 40px;
+    background-color: darkgray;
+}
+.rightvideo{
+         width: 840px;
+         height: 800px;
+         border: 3px solid black;
+         padding: 50px;
+         float: right;
+
+}
+.rightvideo1{
+    width:1100px;
+    height: 450px;
+    border: 3px solid black;
+    padding: 50px;
+    float: right;
+
+}
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  .bthead1,.bthead2,.bthead3,
+  .bthead4,.bthead5,.bthead6,
+  .bthead7,.bthead8,.bthead9,.bthead10{
+      background-color: gainsboro;
+      width: 280px;
+      padding: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+  .bthead p a{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 0px;
+  }
+  b,i{
+      font-size: 15px;
+      margin-left: 10px;
+  } 
+  .bthead p1:hover,.bthead p2:hover,.bthead p3:hover,
+  .bthead p4:hover,.bthead p5:hover,.bthead p6:hover,
+  .bthead p7:hover,.bthead p8:hover,.bthead p9:hover,
+  .bthead p10:hover{
+      cursor: pointer;
+  }
