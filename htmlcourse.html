@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>
+    learnonline
+    </title>
+   
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="new.css"/>
+    <link rel="stylesheet" type="text/css" href="coursevideo.css"/>
+    <link rel="stylesheet" type="text/css" href="/fontawesome-free-5.11.2-web/css/all.min.css">
+    <script src="/angular.min.js"></script>
+    <script src="/jquery-3.4.1.js"></script>
+    <script src="/jquery-ui.js"></script>
+    
+    </head>
+<body>
+          <div class="navbar">
+                    <a class="logo" href="#">ABCLearn</a>
+               <div class="menu"><ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li class="courses"><a href="#">Courses</a>
+                    <ul><li><a href="#">Html</a></li>
+                    <li><a href="csscourse.html">Css</a></li>
+                    <li><a href="jscourse.html">Javascript</a></li></ul>
+                    </li>
+                   </ul>
+                </div>
+            </div>
+            <div class="htmlhead"></div>
+            <i class="btn2 fa fa-align-justify" style="margin: 10px;"></i>
+            <div class="sidemenu">
+                <h2>Topics</h2>
+                <div class="bthead">
+              <h3 class="bthead1">HTML Introduction<i class="fas fa-sort-down"></i></h3>
+                        <p1><b><i class="fas fa-video"></i>video:</b><a href="/HTML & CSS/T1- HTML Introduction/1- HTML Introduction.mp4" target="iframes">HTML Introduction</a></p>
+                        <p1><b><i class="fas fa-video"></i>video:</b><a href="/HTML & CSS/T1- HTML Introduction/3- NetBeans Installation.mp4" target="iframes">Netbeans Installation</a></p>
+                </div>
+                <div class="bthead">
+                        <h3 class="bthead2">HTML Page Structure<i class="fas fa-sort-down"></i></h3>
+                        <p2><b><i class="fas fa-video"></i>video:</b><a href="/HTML & CSS/T2- HTML Page Structure/1. HTML Page Structure.mp4" target="iframes">HTML Page Structure</a></p>
+                 </div>
+                 <div class="bthead">
+                 <h3 class="bthead3">HTML Tags & Elements<i class="fas fa-sort-down"></i></h3>
+                     <p3><b><i class="fas fa-video"></i>video:</b><a href="/HTML & CSS/T3- Tags & Elements/1- Tags and Elements.mp4"target="iframes">Tags & Elements</a></p>
+                 </div>
+                 <div class="bthead">
+                     <h3 class="bthead4">HTML Text Formatting<i class="fas fa-sort-down"></i></h3>
+                     <p4><b><i class="fas fa-video"></i>video:</b><a href="HTML & CSS/T4- Text Formatting/1- HTML Tags.mp4" target="iframes">Text Formatting</a></p>
+                 </div>
+                 <div class="bthead">
+                        <h3 class="bthead5">HTML Attributes<i class="fas fa-sort-down"></i></h3>
+                        <p5><b><i class="fas fa-video"></i>video:</b><a href="/HTML & CSS/T5- Attributes/1- Attributes.mp4" target="iframes">Attributes</a></p>
+                </div>
+                <div class="bthead">
+                            <h3 class="bthead6">HTML Hyperlinks<i class="fas fa-sort-down"></i></h3>
+                            <p6><b><i class="fas fa-video"></i>video:</b><a a href="/HTML & CSS/T6- Hyperlinks/1- Creating Hyperlinks.mp4" target="iframes"> Hyperlinks</a></p>
+                     </div>
+                 <div class="bthead">
+                                <h3 class="bthead7">HTML Lists<i class="fas fa-sort-down"></i></h3>
+                                <p7><b><i class="fas fa-video"></i>video:</b><a a href="/HTML & CSS/T11- Lists/1- Adding Lists Using HTML.mp4" target="iframes">Adding Lists Using HTML</a></p>
+                         </div>
+                    <div class="bthead">
+                            <h3 class="bthead8">HTML Forms<i class="fas fa-sort-down"></i></h3>
+                               <p8><b><i class="fas fa-video"></i>video:</b><a a href="/HTML & CSS/T16- Forms/1- Forms - I.mp4" target="iframes">Forms-1</a></p>
+                                <p8><b><i class="fas fa-video"></i>video:</b><a a href="/HTML & CSS/T16- Forms/4- Forms - II.mp4" target="iframes">Forms-2</a></p>
+                         </div>
+                        <div class="bthead">
+                            <h3 class="bthead9">HTML Tables<i class="fas fa-sort-down"></i></h3>
+                            <p9><b><i class="fas fa-video"></i>video:</b><a a href="/HTML & CSS/T14- Tables/1- Insert Table.mp4" target="iframes">Insert Table</a></p>
+                             </div>
+                         <div class="bthead">
+                          <h3 class="bthead10">HTML Images<i class="fas fa-sort-down"></i></h3>
+                        <p10><b><i class="fas fa-video"></i>video:</b><a a href="/HTML & CSS/T13- Images/1- Add Images - I.mp4" target="iframes">Images-1</a></p>
+                         <p10><b><i class="fas fa-video"></i>video:</b><a a href="/HTML & CSS/T13- Images/3- Add Images - II.mp4" target="iframes">Images-2</a></p>
+                     </div>
+                 </div>
+
+            <div class="rightvideo">
+                <h2>HTML5 Programming From Scratch</h2>
+                <iframe id="iframes" name="iframes" width="700px" height="400px";autoplay></iframe>
+            </div>
+            <script>
+                 $( "p1,p2,p3,p4,p5,p6,p7,p8,p9,p10" ).hide();
+                    $(document).ready(function(){
+                        
+                      $(".bthead1").click(function(){
+                        $("p1").toggle();
+                      });
+                      $(".bthead2").click(function(){
+                        $("p2").toggle();
+                      });
+                      $(".bthead3").click(function(){
+                        $("p3").toggle();
+                      });
+                      $(".bthead4").click(function(){
+                        $("p4").toggle();
+                      });
+                      $(".bthead5").click(function(){
+                        $("p5").toggle();
+                      });
+                      $(".bthead6").click(function(){
+                        $("p6").toggle();
+                      });
+                      $(".bthead7").click(function(){
+                        $("p7").toggle();
+                      });
+                      $(".bthead8").click(function(){
+                        $("p8").toggle();
+                      });
+                      $(".bthead9").click(function(){
+                        $("p9").toggle();
+                      });
+                      $(".bthead10").click(function(){
+                        $("p10").toggle();
+                      });
+                      $(".btn2").click(function(){
+                        $(".sidemenu").toggle();
+                        $(".rightvideo").toggleClass("rightvideo1");
+                      });
+                    });
+                    </script>
+                    
+</body>
+</html>
