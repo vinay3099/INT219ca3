@@ -19,13 +19,10 @@
                 <a class="logo" href="#">ABCLearn</a>
                  <div class="menu"><ul>
                       <li><a href="/home.html">Home</a></li>
-                      <li class="courses"><a href="#">Courses</a>
-                      <ul><li><a href="#">Html</a></li>
-                      <li><a href="#">Css</a></li>
-                      <li><a href="#">Javascript</a></li></ul>
+                      <li class="courses"><a href="home.html#cblock">Courses</a>
                       </li>
-                      <li><a href="#">AboutUS</a></li>
-                      <li><a href="#">Login</a></li>
+                      <li><a href="home.html#ourteam">AboutUs</a></li>
+                      <li><a href="login.html">Login</a></li>
                      </ul>
                   </div>
   
@@ -41,11 +38,11 @@
                 Created By : Naveen<span style="padding-left: 30px;">Last Updated : 27/10/2019</span><span style="padding-left: 30px;" class="fa fa-comment">English</span>
                 </p>
             </div>
-            <div class="html2"><img src="/jsimg.jpg" width="393px" height="220px" style="border: 5px solid white;">
+            <div class="html2"><img src="/img/jsimg.jpg" width="393px" height="220px" style="border: 5px solid white;">
                <form> <label id="mobile">Mobile number<br><input type="text" id="buymobile"></label><br>
                       <label id="mobile">Email<br><input type="email" id="buymobile"</label></form>
             <p style="line-height: 1.5;"><span class="fa fa-rupee-sign" style="padding-left:150px;font-size: 30px;"></span><span style="font-size: 40px;padding-left: 5px;">999</span><br>
-            <span style="border: 2px solid black;padding: 10px 100px;margin-left: 70px;background-color: gray;"><a href="#">Buy Now</a></span><br>
+            <span style="border: 2px solid black;padding: 10px 100px;margin-left: 70px;background-color: gray;"><a href="jscourse.html">Buy Now</a></span><br>
             <span style="font-size: 15px;margin-left:100px;">30 days Money back Gaurantee</span> </p>
             <p style="margin-left: 50px;font-size: 20px;">This course Includes<br>
             *10 hours on-demand video<br>
@@ -87,7 +84,7 @@
           <a href="#" style="background-color: red;color: white;">Youtube</a>
           <a href="#" style="background-color: blue;color: white;">facebook</a>
           <a href="#" style="background-color: deepskyblue;color: white;">twitter</a>
-          <a href="#" style="background-image: url(insta.jpg);color: white;">instagram</a>
+          <a href="#" style="background-image: url(img/insta.jpg);color: white;">instagram</a>
           </div>
       </div>
      </div>
