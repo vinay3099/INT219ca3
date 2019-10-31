@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>
+    learnonline
+    </title>
+   
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="new.css"/>
+    <script src="/angular.min.js"></script>
+    <script src="/jquery-3.4.1.js"></script>
+    
+    </head>
+<body>
+          <div class="navbar">
+              <a class="logo" href="#">ABCLearn</a>
+               <div class="menu"><ul>
+                    <li><a href="#">Home</a></li>
+                    <li class="courses"><a href="#cblock">Courses</a>
+                    </li>
+                    <li><a href="#ourteam">AboutUs</a></li>
+                    <li><a href="login.html">Login</a></li>
+                   </ul>
+                </div>
+
+          </div>
+
+        <div class="mainbody">
+                <div class="imageslide">
+                        <img class="mySlides" src="/img/frontend.png" width="800px" align="middle"height="300px">
+                        <img class="mySlides" src="/img/frontend1.png" width="800px" style="background-color:black;" align="middle" height="300px">
+                        <img class="mySlides" src="/img/frontend2.png" width="800px"  align="middle"  height="300px">
+                        <img class="mySlides" src="/img/frontend4.jpg" width="800px"  align="middle" height="300px">
+                      </div>
+                      <div class="imgcourseblock" id="cblock">
+                          <h2 style="text-align:center;">Online Trainings We Offer</h2>
+                      <div class="imgcourse1"><img src="/img/htmlimg.jpg" height="210px" width="300px" style="border-radius: 5%;"><a href="/coursedetails.html"><button type="button" id="buttonh" style="border-radius: 5%;">View Details</button></a></div>
+                      <div class="imgcourse2"><img src="/img/images.png" height="210px" width="300px" style="border-radius: 5%;"><a href="/coursedetails1.html"><button type="button" id="buttonh"style="border-radius: 5%;">View Details</button></a></div>
+                      <div class="imgcourse3"><img src="/img/jsimg.jpg" height="210px" width="300px" style="border-radius: 5%;"><a href="/coursedetails2.html"><button type="button" id="buttonh" style="border-radius: 5%;">View Details</button></a></div>
+
+                    </div>
+
+                    <div class="contentdev" id="ourteam">
+                        <h1 style="text-align:center;">Our Team</h1>
+                        <div class="naveen"><img src="img/naveen.jpg" style="float: left;border: 3px solid white;border-radius: 10px;" width="200px" height="200px">
+                        <p1 style="float: right;margin-right: 300px;margin-top:30px; font-size: 30px;">NAVEEN SRIKAKULAAPU<br>
+                        Reg No:11717095</p>
+                        </div>
+                        <div class="vinay"><img src="img/vinayimg.jpg" style="float: right;border: 3px solid white;border-radius: 10px;" width="200px" height="200px">
+                          <p2 style="float: right;margin-right: 300px;margin-top:30px; font-size: 30px;">KESANA VINAY SAI<br>
+                            Reg No:11705748</p></div>
+                        <div class="jithu"><img src="img/jithu.jpg" style="float: left;border: 3px solid white;border-radius: 10px;" width="200px" height="200px">
+                          <p3 style="float: right;margin-right: 300px; margin-top:30px;font-size: 30px;">CHAVVA JITHENDHRA NATH<br>
+                            Reg No:11715706</p></div>
+                        <div class="bala"><img src="img/bala.jpg" style="float: right;border: 3px solid white;border-radius: 10px;" width="200px" height="200px">
+                          <p4 style="float: right;margin-right: 300px; margin-top:30px;font-size: 30px;">BALA MURALI KRISHNA<br>
+                            Reg No:11717095</p></div>
+                    </div>
+        </div>    
+     <div class="footer">
+     <div class="contact" style="color: white;"><h1>Contact Us</h1>
+    <label style="color:white;margin: 20px;">Name<input type="text" name="name" required style="margin:10px 20px;border-radius: 10%;"></label><br>
+    <label style="color:white;margin: 20px;">Email<input type="email" name="email" required style="margin: 10px 20px;border-radius: 10%;"></label><br>
+    <label style="color:white;margin: 20px;">Message<input type="text" name="message" required style="margin:10px 20px;border-radius: 10%;"></label><br>
+          <button type="submit" style="width: 70px;margin-left: 20px;">SEND</button>
+    </div>
+    <div class="foot2">
+      <h1 style="color: white;">Follow</h1>
+          <div class="social">
+          <a href="#" style="background-color: red;color: white;">Youtube</a>
+          <a href="#" style="background-color: blue;color: white;">facebook</a>
+          <a href="#" style="background-color: deepskyblue;color: white;">twitter</a>
+          <a href="#" style="background-image: url(img/insta.jpg);color: white;">instagram</a>
+          </div>
+      </div>
+     </div>
+     <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000);
+            }
+            </script>
+            <script>
+              $("p1,p2,p3,p4").hide();
+          $(document).ready(function(){
+           $(".naveen").hover(function(){
+    $("p1").toggle(1000);
+  });
+  $(".vinay").hover(function(){
+    $("p2").toggle(1000);
+  });
+  $(".jithu").hover(function(){
+    $("p3").toggle(1000);
+  });
+  $(".bala").hover(function(){
+    $("p4").toggle(1000);
+  });
+});
+            </script>
+    </body>
+</html>
